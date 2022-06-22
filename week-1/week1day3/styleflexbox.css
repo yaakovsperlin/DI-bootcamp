@@ -1,0 +1,42 @@
+div {
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+}
+
+.greenbox {
+    background-color: blue;
+    grid-column: 1/ span 2;
+    height: 4rem;
+}
+
+.purplebox {
+    background-color: red;
+    height: 8rem;
+}
+
+.pinkbox{
+    background-color: blue;
+    height: 3rem;
+}
+
+.bluebox{
+    background-color: red;
+    height: 5rem;
+}
+
+.yellowbox{
+    background-color: blue;
+}
+
+.redbox{
+    background-color: yellow;
+
+}
+
+.sectiongrid{
+    display: grid;
+    grid-gap: 2rem 2rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 3fr;
+}
