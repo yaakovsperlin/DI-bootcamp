@@ -1,0 +1,54 @@
+
+*{
+	box-sizing: border-box;
+
+}
+
+header{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	background-color: grey;
+	background-size: cover;
+	align-items: center;
+	justify-content: space-between;
+	padding: 700px;
+
+}
+ul{
+	border: 2px solid blue;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+li a{
+	border: 2px solid yellow;
+	color: white;
+	font: sans-serif;
+	font-size: 35px;
+	text-decoration: none;
+}
+li {
+	float: right;
+	display: inline-block;
+	padding: 20px;
+}
+.logo{
+	height: 80px;
+	width: 80px;
+	border-radius: 30%;
+	margin-left: 15px;
+}
+.name{
+	font-size: 35px;
+	color: white;
+    border: 3px solid red;
+ 	margin-left: -600px;
+}
+/*first section*/
+section{
+	background-image: url(kruger@yaakov);
+}
