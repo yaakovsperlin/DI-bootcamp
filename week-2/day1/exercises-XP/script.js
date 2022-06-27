@@ -59,7 +59,7 @@ console.log(a+b)
 
 // realized after i changed 34 in 'a' to 2
 
-// What is the value of c?  null or undefined 
+// What is the value of c?  undefined? 
     
     console.log(3 + 4 + '5'); 
     // result 75
