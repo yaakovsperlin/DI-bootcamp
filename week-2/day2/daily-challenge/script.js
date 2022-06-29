@@ -7,3 +7,5 @@
  sentence = "The movie is not that bad I like it".replace("not that bad ", "good,")
  console.log(sentence)
   console.log(sentence)
+
+  
