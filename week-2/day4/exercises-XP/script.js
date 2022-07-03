@@ -33,7 +33,7 @@ function calculateTip(){
 	if (under < 50) {
 		under = under*1.4
 		return (`your bill plus tax is ${under} thank you`)
-   }else if (under > 50 && under <200){
+   }else if (under > 50 && under < 200){
      under = under*1.3
      return(`your bill plus tax is ${under} thank you`) 
    }else if(under > 200){

@@ -7,12 +7,8 @@
 //   		let prompt = prompt("can u type a number between 0 and 10")
 //  		let numberHolder = number(prompt)
 //       // if (numberHolder = NaN){
+	
 
-
-//   }
-
-// }
-// }
     let computerNumber = Math.floor((Math.random() * 10) + 1);
 
 function playTheGame() {
@@ -32,10 +28,10 @@ function playTheGame() {
  
 
 function promptNumber(){
-	let userNumber = prompt("please type in a number between zero and ten!")
+	 let userNumber = prompt("please type in a number between zero and ten!")
      let numberHolder = Number(userNumber)
-     while(getNumber(numberHolder)){
-         promptNumber()
+       while(getNumber(numberHolder)){
+          promptNumber()
   	 }
   	 return numberHolder
           
@@ -65,5 +61,8 @@ function matchNumber(numberHolder, computerNumber){
   
 
 
+function f(param) {
+  return param + 1;
+}
 
-
+const variablename = f();

@@ -9,17 +9,17 @@
 //  // Exercise 1 : Information
 
 
-function infoAboutMe(){
-	let myAge = "22,";
-	let myHeight = "15,";
-	if (true) {
-		return `my age is ${myAge} and my mom is ${myHeight}`
-	}else{
-		return false
-	}
-}
-let a = infoAboutMe()
-console.log(a)
+// function infoAboutMe(){
+// 	let myAge = "22,";
+// 	let myHeight = "15,";
+// 	if (true) {
+// 		return `my age is ${myAge} and my mom is ${myHeight}`
+// 	}else{
+// 		return false
+// 	}
+// }
+// let a = infoAboutMe()
+// console.log(a)
 
 // Part II : function with three parameters
 
@@ -78,39 +78,39 @@ console.log(a)
 // console.log(totalSum)
 // // twenty()
 
-let stock = { 
-    "banana": 6, 
-    "apple": 0,
-    "pear": 12,
-    "orange": 32,
-    "blueberry":1
-}  
+// let stock = { 
+//     "banana": 6, 
+//     "apple": 0,
+//     "pear": 12,
+//     "orange": 32,
+//     "blueberry":1
+// }  
 
-let prices = {    
-    "banana": 4, 
-    "apple": 2, 
-    "pear": 1,
-    "orange": 1.5,
-    "blueberry":10
-} 
-let shoppingList = ["banana","orange","apple",]
+// let prices = {    
+//     "banana": 4, 
+//     "apple": 2, 
+//     "pear": 1,
+//     "orange": 1.5,
+//     "blueberry":10
+// } 
+// let shoppingList = ["banana","orange","apple",]
 
-function myBill(){
-	let price = 0;
-	if (stock.banana > 0) {
-       price += prices.banana 
-	}
-	if (stock.orange > 0) {
-		price += prices.orange
-	}
-	if (stock.apple > 0) {
-		price += prices.apple
-	}
-	return price 
+// function myBill(){
+// 	let price = 0;
+// 	if (stock.banana > 0) {
+//        price += prices.banana 
+// 	}
+// 	if (stock.orange > 0) {
+// 		price += prices.orange
+// 	}
+// 	if (stock.apple > 0) {
+// 		price += prices.apple
+// 	}
+// 	return price 
 	
-}
-let pleaseWork = myBill()
-	console.log(pleaseWork) 
+// }
+// let pleaseWork = myBill()
+// 	console.log(pleaseWork) 
 	
 
 
@@ -122,15 +122,109 @@ let pleaseWork = myBill()
 
 
 
-function myBillTwo() {
-	let price = 0;
-	for (let i = 0; i < shoppingList.length; i++) {
-		if (stock[shoppingList[i]] > 0) {
-			price += prices[shoppingList[i]]
-		}
-	}
-	return price
+// function myBillTwo() {
+// 	let price = 0;
+// 	for (let i = 0; i < shoppingList.length; i++) {
+// 		if (stock[shoppingList[i]] > 0) {
+// 			price += prices[shoppingList[i]]
+// 		}
+// 	}
+// 	return price
+// }
+
+// const hi = myBillTwo()
+// console.log(hi)
+
+
+
+
+
+// function hotelCost()
+//   let numberNights = promptStay()
+  
+//       while (hotelPrice(num,)) {
+//         num = promptStay()
+//     } 
+
+
+
+//   function promptStay(){  
+//   let promptQ = prompt("how many nights would you like to stay in the hotel?");
+//   let userAnswer = Number(promptQ)
+//   let numberNights = promptStay() 
+    
+//     }
+
+
+
+//   	function getNumber(userAnswer) {
+//     if(isNaN(userAnswer)) {
+//        alert("we need a number")
+//        return true
+//      }
+//        return false
+//    }
+// function hotelPrice(userAnswer){
+// 	if (userAnswer == 1){
+// 		alert("your price is 25")
+// 		return false
+// 	}else if(userAnswer == 2){
+// 			alert("your price is 50")
+// 			return false
+// 		}else if(userAnswer == 3){
+// 			alert("your price is 50")
+// 			rturn false
+// 		}
+// 		else(userAnswer > 4){
+// 			alert("we only allow minimum 3 night stay")
+// 			return true
+// 		}
+// 	}
+
+
+const arr = ["car", "house", "table",]
+
+
+
+for (let i = 0; i < arr.length; i++) {
+	console.log(arr[i])
 }
 
-const hi = myBillTwo()
-console.log(hi)
+
+
+
+
+
+
+
+
+
+
+
+
+// let i = arr.length-1 
+// while(i >= 0){
+// 	console.log (arr[i])
+// 	i--
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
