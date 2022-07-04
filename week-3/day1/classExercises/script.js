@@ -47,28 +47,28 @@ node2.lang = "heb"
 
 
 let div = document.getElementById(`container`)
-// console.log(div)
+console.log(div)
 
-// let ul1 = document.querySelector(`.list`)
-// ul1.[1].textContent = "yaakov" 
-// + ul1.firstElementChild.textContent
-// document.getElementsByTagName(`li`)[1].textContent = "richard"
-// document.getElementsByTagName(`li`)[0].textContent = "yaakov john"
-// document.getElementsByTagName(`li`)[1].textContent = "yaakov richard"
+let ul1 = document.querySelector(`.list`)
+ul1.[1].textContent = "yaakov" 
++ ul1.firstElementChild.tex tContent
+document.getElementsByTagName(`li`)[1].textContent = "richard"
+document.getElementsByTagName(`li`)[0].textContent = "yaakov john"
+document.getElementsByTagName(`li`)[1].textContent = "yaakov richard"
 
 
-// let li = document.getElementsByTagName(`ul`)
-// for(i = 0; i < li.length[0] i++){
-// 	textContent = "yaakov"
-// }
+let li = document.getElementsByTagName(`ul`)
+for(i = 0; i < li.length[0] i++){
+	textContent = "yaakov"
+}
 
-// let child = document.getElementById(`list`)
-// console.log(nextElementSibling(child);
+let child = document.getElementById(`list`)
+console.log(nextElementSibling(child);
 
-// let li2 = document.getElementsByTagName(`ul`)[1];
-// // console.log(li2.firstElementChild.nextElementSibling)
+let li2 = document.getElementsByTagName(`ul`)[1];
+// console.log(li2.firstElementChild.nextElementSibling)
 
-// li2.removeChild(li2.children[1])
+li2.removeChild(li2.children[1])
 
 
 
