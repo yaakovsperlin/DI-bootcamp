@@ -1,22 +1,22 @@
-// function divHover(){
-//   console.log('div Hover')
-// }
-// function divClick(){
-// 	alert('divClick')
-// }
+function divHover(){
+  console.log('div Hover')
+}
+function divClick(){
+	alert('divClick')
+}
 
-// let root = document.getElementById('root');
-// root.addEventListener("click", function(){
-// 	alert('haha')
+let root = document.getElementById('root');
+root.addEventListener("click", function(){
+	alert('haha')
 	
-// })
+})
 
-// let inpt = document.getElementById('root2');
-// // document.getElementsByTagName('input')[0];
-// inpt.addEventListener('input',function(event){
-// 	console.log(event.target.value)
+let inpt = document.getElementById('root2');
+// document.getElementsByTagName('input')[0];
+inpt.addEventListener('input',function(event){
+	console.log(event.target.value)
 
-// })
+})
 
 // 🌟 Exercise 1 : Change The Article
 
